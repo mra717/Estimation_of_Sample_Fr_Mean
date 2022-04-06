@@ -123,7 +123,7 @@ def spectral_diff(predicted, target, percent = False):
             except FloatingPointError:
                 diff = 0
 
-        diff_pred.append(diff)
+            diff_pred.append(diff)
 
     else:
         for i in range(len(target)):
@@ -131,7 +131,7 @@ def spectral_diff(predicted, target, percent = False):
             a = np.sort(abs(predicted[i]))[::-1]
             c = np.sort(abs(target[i]))[::-1]
 
-        diff_pred.append(abs(a-c))
+            diff_pred.append(abs(a-c))
     return diff_pred
 
 
