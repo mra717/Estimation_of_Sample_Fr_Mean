@@ -17,8 +17,11 @@ the structural properties of the graphs in the set?
 
 The repository is as follows: 
 
-```Data.py``` contains all relevant data generation methods 
+```DataGenerator.py``` contains all relevant data generation methods. 
+```Model.py``` contains all the necessary code to build the models 
+
+The two Juypter notes correcpond to the data generation process as well as the model training process. 
 
 
-In this repositopry you will find the releveant scripts used to for data generation, model building, and testing. 
+
 This will be updated with the pretrained models, the actual data used for training and testing , and the paper as we work towards publication. 
